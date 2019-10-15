@@ -1,0 +1,10 @@
+.card {
+  display: block;
+  padding: 15px;
+}
+
+.BadgeList__name {
+  font-weight: bold;
+  font-family: 'Lato';
+  margin-bottom: 0;
+}

@@ -1,0 +1,49 @@
+html, body {
+  height: 100%;
+}
+
+#app {
+  height: calc(100% - 60px);
+}
+
+.Home__container {
+  background: url('../../images/stars.svg'), #1B1B25;
+  background-repeat: repeat;
+}
+
+.Home__container-logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.Home__container-conf-logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.Home__container-info {
+  text-align: center;
+  order: 2;
+}
+
+.Home__container-astronaut {
+  order: 1;
+}
+
+@media(min-width: 992px) {
+  .Home__container-conf-logo {
+    display: block;
+    margin: 0;
+  }
+  .Home__container-info {
+    text-align: left;
+  }
+
+  .Home__container-info {
+    order: 1;
+  }
+
+  .Home__container-astronaut {
+    order: 2;
+  }
+}
